@@ -11,5 +11,6 @@ Now the company needs your help in building a model to predict whether the perso
 - Information regarding holding policies of the customer
 - Recommended Policy Information  
 
-Before building the model data-preprocessing is done and exploratory data analysis on the dataset is done. Here's the `.ipynb` file of [EDA](https://github.com/jajinkya/Data-Hack-s-JOB-A-THON/blob/main/Final_Submission.ipynb).  
+Before building the model data-preprocessing is done and exploratory data analysis on the dataset is done. Here's the `.ipynb` file of [EDA](https://github.com/jajinkya/Data-Hack-s-JOB-A-THON/blob/main/HILP_EDA.ipynb).  
 Then to build a model; since the dataset contains more categorical features columns so **Catboost** algorithm is used. And to optimize the model we need to tune the hyperparameter's of the algorithm. For that, used `skopt's` **BayesianSearchCV** algorithm. And get finalized model. Here's the [Model](https://github.com/jajinkya/Data-Hack-s-JOB-A-THON/blob/main/Final_Submission.ipynb).  
+To read about the detailed approach. Here's [the report of the project](https://github.com/jajinkya/Data-Hack-s-JOB-A-THON/blob/main/HILP_EDA.ipynb).
